@@ -1,0 +1,66 @@
+/* Importing google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Importing  omponents */
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/card-white.css");
+@import url("components/line.css");
+
+/* General style rules for fonts and colors */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin: 0px;
+	background-color: #F6F9FC;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2, p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.aligned-cards {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 60px;
+	margin-top: -120px;
+	flex-wrap: wrap;
+}
+
+h2 {
+	font-size: 25px;
+	color: #2D315D;
+}
+
+p {
+	font-size: 12px;
+	color: #2D315D;
+}
+
+#make-yellow {
+	color: #EEBB55;
+	font-size: 25px;
+	text-align: right;
+}
+
+#make-yellow:hover {
+	color: #646ECB;
+}
+
+h3 {
+	color: transparent;
+	font-size: 8px;
+	background-color: #EEBB55;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logo {
+	margin-top: 0px;
+}
